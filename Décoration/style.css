@@ -1,0 +1,59 @@
+html {
+    background-color:  #eee;
+}
+
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: #414141;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    padding: 0.5rem;
+}
+header h1 {
+    color: red;
+}
+header p {
+    color: white;
+}
+main {
+    padding: 1rem;
+}
+h3 {
+    font-weight: 600;
+}
+
+article p {
+    margin: 0 2rem 0 2rem;
+    padding: 2rem;
+}
+article:first-of-type p {
+    background: linear-gradient(#ffcc00, #ff9900);
+}
+article:nth-child(3) p {
+    background: linear-gradient(#00cc00, #ffcc00, #ff9900);
+}
+
+article:nth-child(4) p {
+    background: linear-gradient(90deg, #00cc00, #ffcc00, #ff9900);
+}
+
+article:nth-child(5) p {
+    background: linear-gradient(90deg, #00cc00 40%, #ffcc00 20%, #ff9900 50%);
+}
+
+footer {
+    
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+}
+footer p a {
+    color: #DD5735;
+}
